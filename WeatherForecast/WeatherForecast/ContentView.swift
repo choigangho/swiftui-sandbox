@@ -36,7 +36,8 @@ struct ContentView: View {
                 Text(day)
                     .font(Font.headline)
                 
-                Image(systemName: iconName)               .foregroundStyle(iconColor)
+                Image(systemName: iconName)               
+                    .foregroundStyle(iconColor)
                     .font(Font.largeTitle)
                     .padding(5)
                 
