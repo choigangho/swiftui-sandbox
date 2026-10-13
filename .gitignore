@@ -60,3 +60,21 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# macOS Finder가 폴더마다 만드는 메타데이터 파일 (Desktop Services Store)
+.DS_Store
+
+# 빌드 결과물
+build/
+DerivedData/
+
+# 인증서 / 개인 키 / 프로비저닝 프로파일
+*.p12
+*.cer
+*.mobileprovision
+*.certSigningRequest
+
+# API 키, 환경 변수
+.env
+Secrets.plist
+*.xcconfig   # 키를 여기 넣어 쓰는 경우에만
