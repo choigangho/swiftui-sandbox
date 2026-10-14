@@ -3,9 +3,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         HStack {
-            DayForecast(day: "Mon", isRainy: false, high: 70, low: 50)
+            DayForecast(day: "월", isRainy: false, high: 25, low: 21)
             
-            DayForecast(day: "Tue", isRainy: true, high: 60, low: 40)
+            DayForecast(day: "화", isRainy: true, high: 21, low: 17)
+            
+            DayForecast(day: "수", isRainy: false, high: 24, low: 21)
         }
     }
        
